@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#first-group {
+    background: url('../img/menuimg.png') no-repeat;
+    background-size: cover;
+}
+
+#first-row {
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar-toggler-icon:after {
+    content: "\f150";
+    font-family: fontAwesome;
+    color: aliceblue;
+}
+
+.navbar-nav .nav-item .nav-link,
+.navbar-brand {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    transform: scale(1.3);
+    color: #ffc200;
+}
+
+#second-row .content {
+    margin: 147px 0 200px 0;
+}
+#second-row a{
+    width: 250px;
+}
+#second-row a:hover{
+    background: #ffc200;;
+}
+.content h1 {
+    font-size: 50px;
+    color: #ffc200;
+    font-family: 'Grand Hotel', cursive;
+}
+
+.content p {
+    color: #fff;
+}
+
+/* first-group-end============================================================= */
+
+.foodvariety {
+    text-align: center;
+    padding: 44px;
+}
+
+.foodvariety img {
+    width: 170px;
+}
+
+.foodvariety h1 {
+    font: 34px;
+    font-family: 'Grand Hotel', cursive;
+}
+
+/* second-group-end============================================================= */
+#hello {
+    background: url('../img/content2nd-part\ \(1\).png') no-repeat;
+    background-size: cover;
+}
+
+.oriental {
+    width: 300px;
+}
+
+#hello h1 {
+    margin-top: 80px;
+    font-size: 50px;
+    color: #ffc200;
+    font-family: 'Grand Hotel', cursive;
+}
+
+#hello p {
+    color: #fff;
+}
+
+#hello a {
+    border: 2px solid red;
+    width: 165px;
+    background: #ffc200;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#hello a:hover {
+    background: blueviolet;
+}
+/* thired-group-end============================================================= */
+
+
+#statics{
+background: rgb(47, 47, 47);
+}
+#statics h1{
+    margin-top: 60px;
+    color: #ffc200;
+    font-size: 80px;
+    font-family: 'Grand Hotel', cursive;
+}
+.main-circle{
+    padding: 40px;
+    margin: 30px 0 30px 0;
+}
+#statics .circle{
+    width:200px;
+    height: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle h3{
+    color: #ffc200;
+}
+.circle h4{
+    color: #fff;
+}
+/* fourth-group-end============================================================= */
+
+#grill{
+    background: url('../img/last\ \(1\).png') no-repeat;
+    background-size: cover;
+}
+#grill h1{
+    margin-top: 50px;
+    color: #ffc200;
+    font-size: 80px;
+    font-family: 'Grand Hotel', cursive;
+}
+#grill p{
+    color: #fff;
+}
+
+#grill a{
+    border: 1px solid;
+    width: 194px;
+    background: #ffc200;
+    color: #fff;
+    margin-left: 60px;
+}
+#grill a:hover{
+    background: crimson;
+}
+#grill img{
+    margin-left: 101px;
+    width: 314px;
+    margin-top: -20px;
+}
+/* fifth-group-end============================================================= */
+
+#party{
+    margin-top: 130px;
+    background: url('../img/party.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#party:after{
+    content: "";
+    background:rgba(204, 246, 34, 0.3);
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+#fields{
+    padding: 195px;
+    margin: 65px;
+    text-align: center;
+}
+#fields p{
+    font-size: 25px;
+    z-index: 10;
+    color: #fff;
+    font-family: 'Grand Hotel', cursive;
+}
+#fields h3{
+    font-size: 30px;
+    z-index: 10;
+    color: #fff;
+    font-family: 'Grand Hotel', cursive;
+}
+/* fifth-group-end============================================================= */
+
+#subscribe{
+    background: url('../img/design.png') no-repeat;
+    background-size: cover;
+}
+.subscri{
+    padding: 100px;
+    margin: 112px;;
+}
+#subscribe h1{
+    color:black;
+    font-size: 80px;
+    font-family: 'Grand Hotel', cursive;
+}
+#subscribe [type='search']{
+    width:265px;
+}
+#subscribe [type='submit']{
+    background: #ffc200;
+    color: black;
+    font-weight: 500;
+    margin-left: -6px;
+}
+/* sixth-group-end============================================================= */
+
+#footerinner{
+    padding: 36px;
+    margin:30px;
+}
+#footerinner h3{
+    color: #fff;
+}
+#footerinner p{
+    color: #fff;
+}
+#footerinner i{
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+    margin-left: 7px;
+}
+#footerinner i:hover{
+   transform: scale(1.5);
+}
